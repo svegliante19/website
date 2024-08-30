@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Photography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #9f85eb;
+        background-color: #f7f7f7;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    
+
+    nav a {
+        text-decoration: none;
+        color: #a13c80;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+
+    h1 {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .photos {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .photos img {
+        max-width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        border-radius: 7px;
+    }
+
+    .photo-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .photo-container img {
+        
+        cursor: pointer;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(149, 7, 142);
+        font-size: 18px;
+    }
+
+    .insta-link{
+        text-decoration: underline;
+    }
+
+</style>
+
+<body>
+    <nav>
+        <a href="/">About Page</a>
+        <a href="photography.html">Photography</a>
+        <a href="comments.html">Comments</a>
+    </nav>
+
+    <p>
+        All photos are owned by me. To see more:<a class="insta-link" href="https://www.instagram.com/sssstephnie/" target="_blank">click here to follow me on Instagram.</a>
+    </p>
+
+
+    <section class="photos">
+        <div class="photo-container">
+            <img src="static/IMG-4999.jpg" >
+            <img src="static/IMG-5023.jpg" >
+            <img src="static/IMG-5028.jpg" >
+            <img src="static/10EC1739-76B3-411E-BACA-F40F2E011D7C.jpg" >
+            <img src="static/IMG_4991.jpg" >
+            <img src="static/IMG_3770.jpg" >
+            <img src="static/IMG-6085-Original.jpg" >
+            <img src="static/IMG-5001.jpg" >
+            <img src="static/IMG_6050.jpg">
+            <img src="static/IMG-9712-Original.jpg" >
+            <img src="static/IMG_4879.jpg" >
+        </div>
+    </section>
+
+    <br><br>
+</body>
+</html>
